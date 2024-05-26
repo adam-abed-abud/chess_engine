@@ -1,0 +1,131 @@
+Initial Board Setup:
+[34mR[0m [34mN[0m [34mB[0m [34mQ[0m [34mK[0m [34mB[0m [34mN[0m [34mR[0m 
+[34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+BP BP BP BP BP BP BP BP 
+BR BN BB BQ BK BB BN BR 
+
+Performing minimax search for White (depth 3):
+BEST MOVE FOR WHITE: Move from (0, 1) to (2, 2)
+[34mR[0m . [34mB[0m [34mQ[0m [34mK[0m [34mB[0m [34mN[0m [34mR[0m 
+[34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m 
+. . [34mN[0m . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+BP BP BP BP BP BP BP BP 
+BR BN BB BQ BK BB BN BR 
+==================== 
+
+
+BEST MOVE FOR BLACK: Move from (6, 0) to (5, 0)
+[34mR[0m . [34mB[0m [34mQ[0m [34mK[0m [34mB[0m [34mN[0m [34mR[0m 
+[34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m 
+. . [34mN[0m . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+BP . . . . . . . 
+. BP BP BP BP BP BP BP 
+BR BN BB BQ BK BB BN BR 
+==================== 
+
+
+BEST MOVE FOR WHITE: Move from (0, 0) to (0, 1)
+. [34mR[0m [34mB[0m [34mQ[0m [34mK[0m [34mB[0m [34mN[0m [34mR[0m 
+[34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m 
+. . [34mN[0m . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+BP . . . . . . . 
+. BP BP BP BP BP BP BP 
+BR BN BB BQ BK BB BN BR 
+==================== 
+
+
+BEST MOVE FOR BLACK: Move from (5, 0) to (4, 0)
+. [34mR[0m [34mB[0m [34mQ[0m [34mK[0m [34mB[0m [34mN[0m [34mR[0m 
+[34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m 
+. . [34mN[0m . . . . . 
+. . . . . . . . 
+BP . . . . . . . 
+. . . . . . . . 
+. BP BP BP BP BP BP BP 
+BR BN BB BQ BK BB BN BR 
+==================== 
+
+
+BEST MOVE FOR WHITE: Move from (0, 1) to (0, 0)
+[34mR[0m . [34mB[0m [34mQ[0m [34mK[0m [34mB[0m [34mN[0m [34mR[0m 
+[34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m 
+. . [34mN[0m . . . . . 
+. . . . . . . . 
+BP . . . . . . . 
+. . . . . . . . 
+. BP BP BP BP BP BP BP 
+BR BN BB BQ BK BB BN BR 
+==================== 
+
+
+BEST MOVE FOR BLACK: Move from (4, 0) to (3, 0)
+[34mR[0m . [34mB[0m [34mQ[0m [34mK[0m [34mB[0m [34mN[0m [34mR[0m 
+[34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m 
+. . [34mN[0m . . . . . 
+BP . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. BP BP BP BP BP BP BP 
+BR BN BB BQ BK BB BN BR 
+==================== 
+
+
+BEST MOVE FOR WHITE: Move from (0, 0) to (0, 1)
+. [34mR[0m [34mB[0m [34mQ[0m [34mK[0m [34mB[0m [34mN[0m [34mR[0m 
+[34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m 
+. . [34mN[0m . . . . . 
+BP . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. BP BP BP BP BP BP BP 
+BR BN BB BQ BK BB BN BR 
+==================== 
+
+
+BEST MOVE FOR BLACK: Move from (3, 0) to (2, 0)
+. [34mR[0m [34mB[0m [34mQ[0m [34mK[0m [34mB[0m [34mN[0m [34mR[0m 
+[34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m 
+BP . [34mN[0m . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. BP BP BP BP BP BP BP 
+BR BN BB BQ BK BB BN BR 
+==================== 
+
+
+BEST MOVE FOR WHITE: Move from (0, 1) to (0, 0)
+[34mR[0m . [34mB[0m [34mQ[0m [34mK[0m [34mB[0m [34mN[0m [34mR[0m 
+[34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m 
+BP . [34mN[0m . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. BP BP BP BP BP BP BP 
+BR BN BB BQ BK BB BN BR 
+==================== 
+
+
+BEST MOVE FOR BLACK: Move from (2, 0) to (1, 1)
+[34mR[0m . [34mB[0m [34mQ[0m [34mK[0m [34mB[0m [34mN[0m [34mR[0m 
+[34mP[0m BP [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m [34mP[0m 
+. . [34mN[0m . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. BP BP BP BP BP BP BP 
+BR BN BB BQ BK BB BN BR 
+==================== 
+
+

@@ -1,5 +1,6 @@
-
+#include "colors.h"
 #include "Board.hpp"
+
 
 Move::Move(int sR, int sC, int eR, int eC) : startRow(sR), startCol(sC), endRow(eR), endCol(eC) {}
 
@@ -55,14 +56,27 @@ Board::Board() {
 void Board::display() {
     for (int i = 0; i < 8; ++i) {
         for (int j = 0; j < 8; ++j) {
-            switch (board[i][j].piece) {
-                case EMPTY: std::cout << "."; break;
-                case PAWN: std::cout << "P"; break;
-                case KNIGHT: std::cout << "N"; break;
-                case BISHOP: std::cout << "B"; break;
-                case ROOK: std::cout << "R"; break;
-                case QUEEN: std::cout << "Q"; break;
-                case KING: std::cout << "K"; break;
+            if (board[i][j].isWhite) {
+              switch (board[i][j].piece) {
+                  case EMPTY: std::cout << "."; break;
+                  case PAWN: std::cout << FBLU("P"); break;
+                  case KNIGHT: std::cout << FBLU("N"); break;
+                  case BISHOP: std::cout << FBLU("B"); break;
+                  case ROOK: std::cout << FBLU("R"); break;
+                  case QUEEN: std::cout << FBLU("Q"); break;
+                  case KING: std::cout << FBLU("K"); break;
+              }
+            } else {
+              switch (board[i][j].piece) {
+                  case EMPTY: std::cout << "."; break;
+                  case PAWN: std::cout << FRED("P"); break;
+                  case KNIGHT: std::cout << FRED("N"); break;
+                  case BISHOP: std::cout << FRED("B"); break;
+                  case ROOK: std::cout << FRED("R"); break;
+                  case QUEEN: std::cout << FRED("Q"); break;
+                  case KING: std::cout << FRED("K"); break;
+
+              }                
             }
             std::cout << " ";
         }

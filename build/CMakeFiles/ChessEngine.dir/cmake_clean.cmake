@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/ChessEngine.dir/Board.cpp.o.d"
   "CMakeFiles/ChessEngine.dir/ChessEngine.cpp.o"
   "CMakeFiles/ChessEngine.dir/ChessEngine.cpp.o.d"
-  "CMakeFiles/ChessEngine.dir/core.cpp.o"
-  "CMakeFiles/ChessEngine.dir/core.cpp.o.d"
   "CMakeFiles/ChessEngine.dir/main.cpp.o"
   "CMakeFiles/ChessEngine.dir/main.cpp.o.d"
   "ChessEngine"

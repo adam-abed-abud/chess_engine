@@ -6,8 +6,16 @@
 
 class ChessEngine {
 public:
-    Board board;
+    
     std::vector<Move> generateMoves(bool isWhiteTurn);
+    void updateBoard(Board newBoard);
+    int evaluateBoard(Board board);
+    int minimax(int depth, bool isMaximizingPlayer, int alpha, int beta, Move& bestMove_white, Move& bestMove_black);
+
+
+private: 
+    Board m_board;
+
 };
 
 

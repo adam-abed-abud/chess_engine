@@ -1,5 +1,6 @@
 CMakeFiles/ChessEngine.dir/Board.cpp.o: \
  /home/adam/Desktop/chess_engine/Board.cpp /usr/include/stdc-predef.h \
+ /home/adam/Desktop/chess_engine/colors.h \
  /home/adam/Desktop/chess_engine/Board.hpp /usr/include/c++/13/vector \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \

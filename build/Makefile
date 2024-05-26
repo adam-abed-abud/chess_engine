@@ -177,30 +177,6 @@ ChessEngine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChessEngine.dir/build.make CMakeFiles/ChessEngine.dir/ChessEngine.cpp.s
 .PHONY : ChessEngine.cpp.s
 
-core.o: core.cpp.o
-.PHONY : core.o
-
-# target to build an object file
-core.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChessEngine.dir/build.make CMakeFiles/ChessEngine.dir/core.cpp.o
-.PHONY : core.cpp.o
-
-core.i: core.cpp.i
-.PHONY : core.i
-
-# target to preprocess a source file
-core.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChessEngine.dir/build.make CMakeFiles/ChessEngine.dir/core.cpp.i
-.PHONY : core.cpp.i
-
-core.s: core.cpp.s
-.PHONY : core.s
-
-# target to generate assembly for a file
-core.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChessEngine.dir/build.make CMakeFiles/ChessEngine.dir/core.cpp.s
-.PHONY : core.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -240,9 +216,6 @@ help:
 	@echo "... ChessEngine.o"
 	@echo "... ChessEngine.i"
 	@echo "... ChessEngine.s"
-	@echo "... core.o"
-	@echo "... core.i"
-	@echo "... core.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -149,5 +149,4 @@ CMakeFiles/ChessEngine.dir/main.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/adam/Desktop/chess_engine/Board.hpp \
- /home/adam/Desktop/chess_engine/core.hpp
+ /home/adam/Desktop/chess_engine/Board.hpp

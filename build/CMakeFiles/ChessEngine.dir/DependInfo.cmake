@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/adam/Desktop/chess_engine/Board.cpp" "CMakeFiles/ChessEngine.dir/Board.cpp.o" "gcc" "CMakeFiles/ChessEngine.dir/Board.cpp.o.d"
   "/home/adam/Desktop/chess_engine/ChessEngine.cpp" "CMakeFiles/ChessEngine.dir/ChessEngine.cpp.o" "gcc" "CMakeFiles/ChessEngine.dir/ChessEngine.cpp.o.d"
-  "/home/adam/Desktop/chess_engine/core.cpp" "CMakeFiles/ChessEngine.dir/core.cpp.o" "gcc" "CMakeFiles/ChessEngine.dir/core.cpp.o.d"
   "/home/adam/Desktop/chess_engine/main.cpp" "CMakeFiles/ChessEngine.dir/main.cpp.o" "gcc" "CMakeFiles/ChessEngine.dir/main.cpp.o.d"
   )
 
